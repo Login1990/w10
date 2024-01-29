@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { MyContainer } from "./components/MyContainer"
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <h1>
         Hello World!
       </h1>
+      <MyContainer />
     </div>
   );
 }
